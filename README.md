@@ -1,3 +1,27 @@
+# 25 anniversary of tv show Friends in El Confidencial
+
+## Synopsis
+
+Title: Friends: 25 años en 25 datos
+
+This project is an article about the 25th anniversary of the tv show 'Friends'. It is developed in HTML, CSS ans jQuery and was designed by the team of EC Brands.
+
+## Link
+
+Go to the [website](https://www.elconfidencial.com/television/series-tv/2019-09-22/friends-25aniversario-25datos-bra_2244559/)!
+
+## Style
+
+**Build with:**
+- HTML5
+- CSS3 (SASS)
+- jQuery
+- Gulp
+
+**Description:**
+This project is a responsive and optimize web.
+
+
 ##Quick Starter kit Gulp
 
 dependencias instaladas en este proyecto:
