@@ -1,4 +1,4 @@
-# 25 anniversary of tv show Friends in El Confidencial
+# 25th anniversary of the tv show 'Friends' in El Confidencial
 
 ## Synopsis
 
