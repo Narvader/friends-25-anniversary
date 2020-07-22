@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="38px" viewBox="0 0 20 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>left-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Friends" transform="translate(-224.000000, -17238.000000)" fill="#2D3358" fill-rule="nonzero">
+            <g id="left-arrow" transform="translate(224.000000, 17238.000000)">
+                <path d="M17.7491961,37.6068966 C18.0064309,37.8689655 18.3279743,38 18.681672,38 C19.0353698,38 19.3569132,37.8689655 19.6141479,37.6068966 C20.1286174,37.0827586 20.1286174,36.2310345 19.6141479,35.7068966 L3.21543408,19 L19.6141479,2.29310345 C20.1286174,1.76896552 20.1286174,0.917241379 19.6141479,0.393103448 C19.0996785,-0.131034483 18.2636656,-0.131034483 17.7491961,0.393103448 L0.38585209,18.05 C-0.128617363,18.5741379 -0.128617363,19.4258621 0.38585209,19.95 L17.7491961,37.6068966 L17.7491961,37.6068966 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

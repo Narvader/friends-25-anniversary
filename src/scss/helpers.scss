@@ -1,0 +1,111 @@
+/* FONTS */
+$roboto: 'Roboto', sans-serif;
+$fjalla:'Fjalla One', sans-serif;
+
+/* COLORS */
+$theme-color: #88b337;
+$secondary-color: #d44f5c;
+$background: #f1ebe6;
+$yellow: #ffdb82;
+$blue: #4c5796;
+$white: #fff;
+$black:#000;
+$title-graphic: #434343;
+$blue-darker: #2d3358;
+$circle-red: #b9404c;
+$purple: #bab7df;
+
+
+
+@mixin translate($orientation:null) {
+	@if not($orientation) {
+		-ms-transform: translate(-50%,-50%); /* IE 9 */
+	   	-webkit-transform: translate(-50%,-50%); /* Safari */
+	   	-moz-transform: translate(-50%,-50%);
+	   	-o-transform: translate(-50%,-50%);
+	    transform: translate(-50%,-50%);	
+   } @else {
+   		@if ( $orientation == "vertical" ) {
+			-ms-transform: translateY(-50%); /* IE 9 */
+		   	-webkit-transform: translateY(-50%); /* Safari */
+		   	-moz-transform: translateY(-50%);
+		   	-o-transform: translateY(-50%);
+		    transform: translateY(-50%);
+   		} @else {
+			-ms-transform: translateX(-50%); /* IE 9 */
+		   	-webkit-transform: translateX(-50%); /* Safari */
+		   	-moz-transform: translateX(-50%);
+		   	-o-transform: translateX(-50%);
+		    transform: translateX(-50%);
+   		}
+   }
+}
+
+/* BASICS */
+body{
+	font-family: $roboto;
+	font-weight: 400;
+	font-size: 16px;
+	color: $black;
+}
+
+strong {font-weight: 700}
+video, img {
+	max-width: 100%;
+	display:block;
+}
+
+img {
+	height: auto;
+}
+
+iframe {
+	max-width: 100%;
+	margin-bottom: 60px;
+}
+
+
+// ARTICLE MAIN ELEMENTS
+
+p {
+	line-height: 1.5;
+	font-family: $roboto;
+}
+a {text-decoration:none;}
+
+.iframe-pixel, .ec_visit_pixel{display: none;}
+
+
+/* HELPERS */
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.text-left{text-align: left;}
+.text-uppercase {text-transform: uppercase;}
+
+.no-margin {margin: 0;}
+.block {display: block;}
+.relative {position: relative;}
+.thin {font-weight:400;}
+.bold {font-weight:700;}
+.extrabold {font-weight:900;}
+.font-small {font-size: 30px;}
+.font-big {font-size:66px;}
+.margin-bottom{margin-bottom: 100px;}
+
+/* CUSTOM */
+.color {color: $theme-color;}
+.black {color: $black}
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 50px;
+    iframe {
+	    position: absolute;
+	    top:0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+}
